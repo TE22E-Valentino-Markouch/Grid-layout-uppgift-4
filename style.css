@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+header {
+  padding-top: 32px;
+  color: white;
+  background-color: #35424a;
+}
+
+header h1 {
+  margin-bottom: 8px;
+}
+
+nav {
+  color: white;
+  background-color: #35424a;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 1, 5rem;
+  list-style: none;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.introduktion {
+  padding-bottom: 64px;
+  color: white;
+  background-image: url(img/showcase.jpg);
+  background-size: cover;
+  border: 3px #e8491d;
+  border-style: solid none;
+}
+
+.introduktion h1 {
+  font-size: 3rem;
+}
+
+.introduktion p {
+  padding: 0 32px;
+}
+
+.nyhetsbrev {
+  color: white;
+  background-color: #35424a;
+  border-bottom: 3px solid #e8491d;
+}
+
+article {
+  padding: 24px 0;
+}
+
+footer {
+  color: white;
+  background-color: #e8491d;
+}
+
+.grid-col-all {
+  grid-column: 1/-1;
+}
